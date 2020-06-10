@@ -6,7 +6,7 @@
   <link href="/res.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-10T09:08:28.707Z</updated>
+  <updated>2020-06-10T09:10:07.608Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>for</title>
-    <link href="http://yoursite.com/2019/04/17/for/"/>
-    <id>http://yoursite.com/2019/04/17/for/</id>
-    <published>2019-04-17T10:41:14.000Z</published>
-    <updated>2020-06-10T09:08:28.707Z</updated>
+    <link href="http://yoursite.com/2020/06/10/for/"/>
+    <id>http://yoursite.com/2020/06/10/for/</id>
+    <published>2020-06-10T08:57:05.474Z</published>
+    <updated>2020-06-10T09:10:07.608Z</updated>
     
     <content type="html"><![CDATA[<p>let’s see how far we cango</p><p>12456</p>]]></content>
     
