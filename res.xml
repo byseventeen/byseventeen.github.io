@@ -6,7 +6,7 @@
   <link href="/res.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-10T09:27:26.741Z</updated>
+  <updated>2020-06-11T10:00:27.732Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/06/11/List%20%20100/"/>
+    <id>http://yoursite.com/2020/06/11/List  100/</id>
+    <published>2020-06-11T09:27:40.092Z</published>
+    <updated>2020-06-11T10:00:27.732Z</updated>
+    
+    <content type="html"><![CDATA[<p>抱着试试看的想法写下List 100，很喜欢徐par的一句话，“从现在的你到更好的你之间，我认为是可以无限想象的。”</p><p>一切也未可知呢，但我会尽力。</p><ol><li>保持健康</li><li>常联系家人</li><li>成为一名前端开发工程师</li><li>学会理财</li><li>和喜欢的人去海边散步</li><li>学习瑜伽</li><li>搭建自己的个人网站</li><li>为手帐建立一个基地</li><li>为喜欢的书店建网站</li><li>投资</li><li>放下并与自己和解</li><li>会做饭</li><li>学会海淘</li><li>成为自己喜欢的人</li><li>蹦迪</li><li>拥有六位数以上存款（自己动手的）</li><li>和喜欢的人结婚</li><li>拥有一套房子</li><li>去看一次极光</li><li>去看一次雾凇</li><li>做近视矫正</li><li>去喜欢的公司任职</li><li>见喜欢的idol</li><li>写博客</li><li>拍vlog</li><li>为喜欢的人拍写真</li><li>学会剪辑</li><li>带父母定期体检</li><li>不在乎他人看法</li><li>爱一个人</li><li>自己写的程序被使用</li><li>获得奖牌</li><li>鼓励自己和他人</li><li>成功度过一次黑暗时刻</li><li>找到分寸感</li><li>提高自己的专注力</li><li>找到和生活的平衡并努力维持</li><li>读1000本书，从2020开始</li><li>学跳爵士</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;抱着试试看的想法写下List 100，很喜欢徐par的一句话，“从现在的你到更好的你之间，我认为是可以无限想象的。”&lt;/p&gt;
+&lt;p&gt;一切也未可知呢，但我会尽力。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;保持健康&lt;/li&gt;
+&lt;li&gt;常联系家人&lt;/li&gt;
+&lt;li&gt;成为一名前端开发工程师&lt;/l
+      
+    
+    </summary>
+    
+      <category term="List" scheme="http://yoursite.com/categories/List/"/>
+    
+    
+      <category term="List" scheme="http://yoursite.com/tags/List/"/>
+    
+  </entry>
+  
+  <entry>
     <title>年度清单</title>
-    <link href="http://yoursite.com/2020/06/10/%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/"/>
-    <id>http://yoursite.com/2020/06/10/年度清单/</id>
+    <link href="http://yoursite.com/2020/06/10/2020%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/"/>
+    <id>http://yoursite.com/2020/06/10/2020年度清单/</id>
     <published>2020-06-10T09:27:19.992Z</published>
-    <updated>2020-06-10T09:27:26.741Z</updated>
+    <updated>2020-06-11T09:47:55.605Z</updated>
     
     <content type="html"><![CDATA[<p>2020年度清单</p>]]></content>
     
@@ -47,7 +77,7 @@
     <link href="http://yoursite.com/2020/06/10/%E6%89%80%E8%B0%93%E7%83%AD%E7%88%B1/"/>
     <id>http://yoursite.com/2020/06/10/所谓热爱/</id>
     <published>2020-06-10T09:14:42.372Z</published>
-    <updated>2020-06-10T09:23:19.118Z</updated>
+    <updated>2020-06-11T09:25:36.934Z</updated>
     
     <content type="html"><![CDATA[<p>热爱</p>]]></content>
     
@@ -61,39 +91,10 @@
     
     </summary>
     
-      <category term="年度清单" scheme="http://yoursite.com/categories/%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/"/>
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
     
     
-      <category term="List" scheme="http://yoursite.com/tags/List/"/>
-    
-      <category term="Article" scheme="http://yoursite.com/tags/Article/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>for</title>
-    <link href="http://yoursite.com/2020/06/10/for/"/>
-    <id>http://yoursite.com/2020/06/10/for/</id>
-    <published>2020-06-10T08:57:05.474Z</published>
-    <updated>2020-06-10T09:10:07.608Z</updated>
-    
-    <content type="html"><![CDATA[<p>let’s see how far we cango</p><p>12456</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;let’s see how far we cango&lt;/p&gt;
-&lt;p&gt;12456&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="年度清单" scheme="http://yoursite.com/categories/%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/"/>
-    
-    
-      <category term="List" scheme="http://yoursite.com/tags/List/"/>
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
     
   </entry>
   
@@ -102,15 +103,16 @@
     <link href="http://yoursite.com/2019/04/17/hello-world/"/>
     <id>http://yoursite.com/2019/04/17/hello-world/</id>
     <published>2019-04-17T09:35:54.287Z</published>
-    <updated>2019-04-17T10:37:27.761Z</updated>
+    <updated>2020-06-11T09:22:56.002Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2><h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>say  HI~</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;say  HI~&lt;/p&gt;
+
       
     
     </summary>
