@@ -6,7 +6,7 @@
   <link href="/res.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-15T06:11:00.889Z</updated>
+  <updated>2020-06-22T03:45:58.169Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vue异步渲染</title>
+    <link href="http://yoursite.com/2020/06/22/Vue%E5%BC%82%E6%AD%A5%E6%B8%B2%E6%9F%93/"/>
+    <id>http://yoursite.com/2020/06/22/Vue异步渲染/</id>
+    <published>2020-06-22T01:44:28.679Z</published>
+    <updated>2020-06-22T03:45:58.169Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="Vue异步渲染"><a class="header-anchor" href="#Vue异步渲染">¶</a>Vue异步渲染</h5><p>vue内部的渲染机制：页面只会渲染一次。所以即使进行了两次赋值，最终呈现的也是第一次与第二次复制进行合并，最后一次性渲染。</p><p>异步渲染的目的：与节流函数一样，避免不必要的页面渲染和重绘，以减少浏览器的性能消耗，避免产生卡顿等问题。</p><p>vue中的异步渲染：会先渲染出第一次赋值作为暂存，第二次渲染会暂存所要引起的变化，接着会将这些变化放入异步API执行，确认所有同步代码执行完成之后再进行异步执行，在这之前会对异步里面 的数据进行筛选看是否有重复操作，再者根据优先级进行排序，最后整合成一套需要渲染的数据，进行渲染。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;Vue异步渲染&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Vue异步渲染&quot;&gt;¶&lt;/a&gt;Vue异步渲染&lt;/h5&gt;
+&lt;p&gt;vue内部的渲染机制：页面只会渲染一次。所以即使进行了两次赋值，最终呈现的也是第一次与第二次复制进行合并，最后一次性渲染。
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020不完全行动指南</title>
     <link href="http://yoursite.com/2020/06/12/2020%E4%B8%8D%E5%AE%8C%E5%85%A8%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97/"/>
     <id>http://yoursite.com/2020/06/12/2020不完全行动指南/</id>
     <published>2020-06-12T09:47:36.992Z</published>
-    <updated>2020-06-15T06:11:00.889Z</updated>
+    <updated>2020-06-22T01:45:27.168Z</updated>
     
     <content type="html"><![CDATA[<p>2020不完全行动指南<img class="emoji" draggable="false" alt="⭐️" src="https://twemoji.maxcdn.com/v/13.0.0/72x72/2b50.png"></p><p>2020，这一年来得猝不及防又来得理所当然。猝不及防是我还没在2019长成自己喜欢的样子，理所当然是时间并不会偏袒哪一个特定的对象。狭路相逢勇者胜，2020，我来啦。</p><p>先列一个想做的事情的清单叭，排名不分先后，想做就对了。</p><ul><li>练尤克里里（抓起来继续啦）</li><li>输出博客 让自己的知识形成体系</li><li>拥有定额存款</li><li>谈一个恰到好处的关系</li><li>读20本书（书评）</li><li>看20部电影（影评）</li><li>锻炼逻辑思维</li><li>github亮起一片绿墙</li></ul><p>这样看起来，2020年我的重点还是放在了提升和学习上。很遗憾，有的时候学习并不是一件让人感到舒适的事情。</p><p>但学习才是生活的常态。</p><p>一般情况下，我不太去提醒自己新的一年里需要特别注意什么。能去注意的，必定是在此之前已经难搞了的事情。</p><p>今年例外。我须得日日警醒自己，这日子是我在过路是我在走，万事还须我自己乐意才行。捂住耳朵，请听听自己的声音，外面熙熙攘攘，而你才是主角。一直左顾右盼或回头看的人，又怎么能走好自己的路呢。 做你自己，全情投入。你才是自己的第一生产力。</p><p>接受社会的毒打。学习接受自己，不管是好的那个还是不好的那个，接受原本样子的自己。清楚地知道自己短板在哪，长板又在哪。缴纳补齐，社会的毒打肯定少不得。或许委屈或许难受，但有一天要站在想站的地方。</p><p>除了自己，其它的都不必勉强。不管友情爱情还是别的比如一个人的道歉诸如此类。因为，为你付出，全凭我乐意。</p><p>接下来的日子里，会好好坚持事情：</p><ul><li>微博按周打卡学习</li><li>博客尽量按月出稿（我也怕我太忙）</li><li>看过什么书什么电影会第一时间好好分享（总觉得看完没思考过就不是自己的东西）</li><li>每天都要打代码（手感这种东西不是想有就能有的哈哈哈哈哈哈哈）</li></ul><p>那就为接下来的日子好好期待着吧~</p><p>我也很好奇这个中二的敲代码小女孩会经历什么冒险呢~</p>]]></content>
     
@@ -36,7 +60,7 @@
     </summary>
     
     
-      <category term="Blogs" scheme="http://yoursite.com/tags/Blogs/"/>
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
     
   </entry>
   
@@ -126,28 +150,6 @@
     
     
       <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/04/17/hello-world/"/>
-    <id>http://yoursite.com/2019/04/17/hello-world/</id>
-    <published>2019-04-17T09:35:54.287Z</published>
-    <updated>2020-06-11T09:22:56.002Z</updated>
-    
-    <content type="html"><![CDATA[<p>say  HI~</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;say  HI~&lt;/p&gt;
-
-      
-    
-    </summary>
-    
     
   </entry>
   
