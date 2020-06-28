@@ -6,7 +6,7 @@
   <link href="/res.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-22T03:45:58.169Z</updated>
+  <updated>2020-06-28T09:25:11.512Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第十一期前端女生职业发展专场总结</title>
+    <link href="http://yoursite.com/2020/06/28/%E7%AC%AC%E5%8D%81%E4%B8%80%E6%9C%9F%20%E5%89%8D%E7%AB%AF%E5%A5%B3%E7%94%9F%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E4%B8%93%E5%9C%BA%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2020/06/28/第十一期 前端女生职业发展专场总结/</id>
+    <published>2020-06-28T09:24:13.441Z</published>
+    <updated>2020-06-28T09:25:11.512Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="technique"><a class="header-anchor" href="#technique">¶</a>technique</h4><ol><li><p>业务识别&amp;方案设计</p></li><li><p>业务痛点 更优解决方案  small task</p></li><li><p>基于现有业务沉淀出基础建设</p></li><li><p>对技术栈不断进行总结和反思</p></li><li><p>发现问题与定义问题 （important） 解决问题（have Time to learn）</p></li><li><p>保持利他与共赢思维</p></li></ol><h5 id="高强度快乐工作策略"><a class="header-anchor" href="#高强度快乐工作策略">¶</a>高强度快乐工作策略</h5><ol><li><p>培养技能树  （了解前端整体方向，深入叶子节点并打造自己的标签）</p></li><li><p>改变现状的能力（有准备的沟通）</p></li><li><p>判断与选择（事务优先级以及理论依据，并对自己的选择负责）</p></li><li><p>输入与输出（积累与丰富树，交流与反馈）</p></li><li><p>明确的目标（拆分任务，学习身边优秀人士的方法）（尖尖）</p><p><img src="https://user-gold-cdn.xitu.io/2020/6/27/172f48718f947d40?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p></li></ol><h4 id="person"><a class="header-anchor" href="#person">¶</a>person</h4><ol><li>认识自己</li><li>持续学习</li><li>不断尝试新鲜事物</li><li>学会理财</li><li>体系化表达</li></ol><h4 id="Working-method"><a class="header-anchor" href="#Working-method">¶</a>Working method</h4><ol><li>对手上业务有深入了解</li><li>需求拆解与评估</li><li>寻找与拓展更好的技术方案</li><li>进度把控合理排期</li><li>良好的沟通协作以及及时的反馈</li><li>对问题的感知能力</li><li>复盘与持续的迭代</li></ol><h4 id="learning-method"><a class="header-anchor" href="#learning-method">¶</a>learning method</h4><ol><li>定期关注前沿技术，参与掘金翻译计划等</li><li>定期review基础知识，数据结构/算法/前端基础知识</li><li>参与线下技术讨论</li><li>学以致用</li></ol><h4 id="Career-Line"><a class="header-anchor" href="#Career-Line">¶</a>Career Line</h4><p>产品：</p><p>深度型：技术性产品经理</p><p>广度型：技术型UX/技术型运营</p><p>技术</p><p>深度：深耕某一特定领域，可视化or视频流or前端算法——特定领域前端专家（在大厂实现）</p><p>广度：广泛了解前后端技术，中间层等——前端架构师（挑战性回会比深度更大）</p><p>沟通</p><p>深度：锻炼管理能力以及资源协调能力——team Leader</p><p>广度：了解后端/测试等相关内容——技术型测试</p><h4 id="booksList"><a class="header-anchor" href="#booksList">¶</a>booksList</h4><p>《软技能 — 代码之外的生存指南》</p><p>《远见》</p><p>《向前一步》</p><p>《凤凰项目  一个IT运维的传奇故事》</p><p>《金字塔原理》</p><p>《中国经济2020 百年一遇之大变局》</p><h4 id><a class="header-anchor" href="#">¶</a></h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;technique&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#technique&quot;&gt;¶&lt;/a&gt;technique&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;业务识别&amp;amp;方案设计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;业务痛点 更优解决方案  
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue异步渲染</title>
@@ -124,32 +153,6 @@
     
     
       <category term="List" scheme="http://yoursite.com/tags/List/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>所谓热爱</title>
-    <link href="http://yoursite.com/2020/06/10/%E6%89%80%E8%B0%93%E7%83%AD%E7%88%B1/"/>
-    <id>http://yoursite.com/2020/06/10/所谓热爱/</id>
-    <published>2020-06-10T09:14:42.372Z</published>
-    <updated>2020-06-11T09:25:36.934Z</updated>
-    
-    <content type="html"><![CDATA[<p>热爱</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;热爱&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
-    
-    
-      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
     
   </entry>
   
