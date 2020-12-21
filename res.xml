@@ -6,7 +6,7 @@
   <link href="/res.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-12-21T03:29:15.178Z</updated>
+  <updated>2020-12-21T09:01:09.939Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端开发技巧</title>
+    <link href="http://yoursite.com/2020/12/21/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2020/12/21/前端开发技巧/</id>
+    <published>2020-12-21T06:48:16.953Z</published>
+    <updated>2020-12-21T09:01:09.939Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="表单渲染"><a class="header-anchor" href="#表单渲染">¶</a>表单渲染</h3><p>一个经常会遇到的需求，单个页面表单项比较多，整个项目里较多页面需渲染表单。</p><p>解决方案：</p><p>1.在data里封装一个data.js</p><p>属性与属性值可自定义，包括表单label，key和value即可，rules为校验规则。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">getAData</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> data=[&#123;</span><br><span class="line">        name: <span class="string">'AA选择'</span>，</span><br><span class="line">        label:<span class="string">'AA'</span>，</span><br><span class="line">        data:[],</span><br><span class="line">    value: <span class="string">''</span>,</span><br><span class="line">        rules:rule    </span><br><span class="line">    &#125;]</span><br><span class="line">    <span class="keyword">return</span> data</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>注意此处的校验规则，需写在data.js里面，详情见后文分晓</p><p>2.在需开发页面index.js中</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-form</span> <span class="attr">v-model</span>=<span class="string">"&#123;form&#125;"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">v-for</span>=<span class="string">"(item,index) in form"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-form-item</span> <span class="attr">:label</span>=<span class="string">"item.name"</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">:value</span>=<span class="string">"item.value"</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">:key</span>=<span class="string">"index"</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">:porp</span>=<span class="string">"form.$&#123;index&#125;.value"</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">:rulues</span>=<span class="string">"item.rules"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-if</span>=<span class="string">"!Array.isArray(item.data)&amp;&amp;item.data!=date"</span>&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">el-input</span> <span class="attr">v-model</span>=<span class="string">"item.value"</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">clearable</span></span></span><br><span class="line"><span class="tag">                      <span class="attr">placeholder</span>=<span class="string">"请输入内容"</span>&gt;</span><span class="tag">&lt;/<span class="name">el-input</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">el-form-item</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">el-form</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; getAData &#125; <span class="keyword">from</span> <span class="string">'@/data/data.js'</span></span><br><span class="line">created()&#123;</span><br><span class="line">    <span class="keyword">this</span>.form = getAData()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;表单渲染&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#表单渲染&quot;&gt;¶&lt;/a&gt;表单渲染&lt;/h3&gt;
+&lt;p&gt;一个经常会遇到的需求，单个页面表单项比较多，整个项目里较多页面需渲染表单。&lt;/p&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;p&gt;1.在data里封装一个
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>brain is new sexy</title>
@@ -114,34 +140,6 @@
     
     
       <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>List-100</title>
-    <link href="http://yoursite.com/2020/06/11/List100/"/>
-    <id>http://yoursite.com/2020/06/11/List100/</id>
-    <published>2020-06-11T09:27:40.092Z</published>
-    <updated>2020-12-21T06:25:12.409Z</updated>
-    
-    <content type="html"><![CDATA[<p>抱着试试看的想法写下List 100，很喜欢徐par的一句话，“从现在的你到更好的你之间，我认为是可以无限想象的。”</p><p>一切也未可知呢，但我会尽力。</p><ol><li>保持健康</li><li>常联系家人</li><li>成为一名前端开发工程师</li><li>学会理财</li><li>和喜欢的人去海边散步</li><li>学习瑜伽</li><li>搭建自己的个人网站</li><li>为手帐建立一个基地</li><li>为喜欢的书店建网站</li><li>投资</li><li>放过自己并与之和解</li><li>会做饭</li><li>学会海淘</li><li>成为自己喜欢的人</li><li>蹦迪</li><li>拥有六位数以上存款（自己动手的）</li><li>和喜欢的人结婚</li><li>打造自己的房子</li><li>去看一次极光</li><li>去看一次雾凇</li><li>做近视矫正</li><li>去喜欢的公司任职</li><li>见喜欢的idol</li><li>写博客</li><li>拍vlog</li><li>为喜欢的人拍写真</li><li>学会剪辑</li><li>带父母定期体检</li><li>不在乎他人看法</li><li>爱一个人</li><li>自己写的程序被使用</li><li>获得奖牌</li><li>鼓励自己和他人</li><li>成功度过一次黑暗时刻</li><li>找到分寸感</li><li>提高自己的专注力</li><li>找到和生活的平衡并努力维持</li><li>读1000本书，从2020开始</li><li>学跳爵士</li><li>和上交大的朋友一起工作</li><li>带爸妈去北京爬长城</li><li>成为一位分享博主</li><li>学会一种乐器（不限制一种）</li><li>出国游玩</li><li>和喜欢的人看海</li><li>做一些有意义的公益</li><li>精神独立</li><li>财务自由</li><li>好好练字</li><li>游泳</li><li>滑雪</li><li>拥有一次有收获的彻夜长谈</li><li>拥有超过五万的粉丝</li><li>去看一场五月天演唱会</li><li>看一次心理医生</li><li>浮潜</li><li>卡丁车</li><li>拯救凸嘴</li><li>拥有一口流利的英语</li><li>看雪</li><li>thinking…</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;抱着试试看的想法写下List 100，很喜欢徐par的一句话，“从现在的你到更好的你之间，我认为是可以无限想象的。”&lt;/p&gt;
-&lt;p&gt;一切也未可知呢，但我会尽力。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;保持健康&lt;/li&gt;
-&lt;li&gt;常联系家人&lt;/li&gt;
-&lt;li&gt;成为一名前端开发工程师&lt;/l
-      
-    
-    </summary>
-    
-    
-      <category term="List" scheme="http://yoursite.com/tags/List/"/>
     
   </entry>
   
